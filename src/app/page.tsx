@@ -24,13 +24,13 @@ export default function Home() {
           <div className="flex-1">
             <div className="mb-6">
               <h3 className="text-lg font-medium mb-4 text-blue-400">_I AM</h3>
-              <p className="mb-2 text-gray-300">이름 : 이프로</p>
-              <p className="mb-2 text-gray-300">포지션: PM 서비스 기획 / FE Developer(jr)</p>
+              <p className="mb-2 text-gray-300">이름 :  옴옴이</p>
+              <p className="mb-2 text-gray-300">포지션: 많이 모구기 / 통통이에서 뚱뚱이 대으기</p>
             </div>
             
             <div className="mb-6">
               <h3 className="text-lg font-medium mb-4 text-blue-400">_Contact</h3>
-              <p className="mb-2 text-gray-300">Email : leepro@naver.com</p>
+              <p className="mb-2 text-gray-300">Email : omomee</p>
               <p className="mb-2 text-gray-300">Phone : +082 - 1234-5678</p>
             </div>
 
