@@ -1,7 +1,6 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import Image from 'next/image'
 
 export default function Home() {
   const techSkills = ['JS', 'TS', 'React', 'Tailwindcss', 'Premierepro']
@@ -76,7 +75,7 @@ export default function Home() {
       >
         <h2 className="text-xl font-semibold mb-6 border-b border-sky-700 pb-2 text-sky-400">Tech Skill</h2>
         <div className="flex flex-wrap gap-4">
-          {techSkills.map((skill, index) => (
+          {techSkills.map((skill) => (
             <div 
               key={skill}
               className="px-4 py-2 bg-gradient-to-r from-sky-900 to-blue-900 text-sky-300 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 hover:from-sky-800 hover:to-blue-800"
